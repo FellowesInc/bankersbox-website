@@ -1,0 +1,228 @@
+.header-subtext {
+  max-width: 350px;
+}
+
+.construction-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.construction-img-wrapper {
+  width: 100%;
+  padding-left: 0.5rem;
+  margin-top: auto;
+}
+
+.epo-container {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  gap: 1rem;
+}
+
+.epo-text-col {
+  z-index: 20;
+}
+
+.epo-img-1,
+.epo-img-2 {
+  display: block;
+  width: 100%;
+}
+
+.easy-org-text-wrapper {
+  max-width: 275px;
+  margin-inline: auto;
+}
+
+.dual-col-carousel .card {
+  max-width: 450px;
+  margin-inline: auto;
+}
+
+.dual-col-carousel .card-text {
+  white-space: break-spaces;
+}
+
+.dual-col-carousel.multi-carousel .multi-carousel-inner .multi-carousel-item img {
+  max-height: 100%;
+}
+
+.dual-col-carousel .card-img,
+.card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.dual-col-carousel .card-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #646464;
+  margin-bottom: 0.75rem;
+}
+
+.dual-col-carousel .card-text {
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #646464;
+  max-width: 315px;
+  margin-inline: auto;
+}
+
+.dual-col-carousel .prod-cat-carousel button.carousel-control,
+.dual-col-carousel .cat-prod-carousel button.carousel-control {
+  top: 50%;
+  bottom: unset;
+  background-color: #ffffff70;
+}
+
+.sustainability-section {
+  padding-block: 4rem;
+  height: 500px;
+}
+
+.sustainability-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.sustainability-section-text {
+  max-width: 260px;
+  margin-inline: auto;
+}
+
+.sustainability-logo {
+  display: block;
+  width: 100%;
+  max-width: 85px;
+  margin-inline: auto;
+  margin-top: 1rem;
+}
+
+@media (max-width: 767.9px) {
+  .construction-container {
+    padding-inline: 1.75rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .sustainability-section {
+    height: 653px;
+    display: flex;
+    align-items: center;
+  }
+
+  .sustainability-section-text .section-title {
+    margin-bottom: 3rem;
+  }
+
+  .sustainability-section-text {
+    max-width: 450px;
+    margin-inline: unset;
+  }
+
+  .sustainability-logo {
+    max-width: 175px;
+    margin-inline: unset;
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .construction-section {
+    height: 653px;
+    display: flex;
+    justify-content: center;
+  }
+  .construction-img-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 653px;
+    width: 100%;
+    max-width: 50%;
+    padding-left: unset;
+    margin-top: unset;
+  }
+
+  .construction-img-wrapper img {
+    height: auto;
+    max-height: 653px;
+    width: 100%;
+    object-fit: contain;
+    object-position: right;
+  }
+
+  .epo-container {
+    height: 653px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .epo-img-1-col {
+    align-self: flex-start;
+  }
+
+  .epo-text-col {
+    padding-right: 2rem;
+  }
+
+  .easy-org-section .row {
+    height: 653px;
+  }
+
+  .easy-org-text-wrapper {
+    max-width: 475px;
+  }
+
+  .dual-col-img {
+    display: block;
+    width: 100%;
+  }
+
+  .dual-col-desktop-wrapper .card {
+    height: 100%;
+  }
+
+  .dual-col-desktop-wrapper .card-title {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #606060;
+  }
+
+  .dual-col-desktop-wrapper .card-text {
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #606060;
+    max-width: 565px;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .epo-container {
+    grid-template-columns: 600px 1fr;
+  }
+}
+
+@media (min-width: 1400px) {
+  .epo-container {
+    grid-template-columns: 600px 1fr 580px;
+  }
+
+  .epo-text-col {
+    padding-right: 0rem;
+  }
+}
+
+@media (min-width: 1600px) {
+}

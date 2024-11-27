@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+  .break-on-desktop {
+    display: block;
+  }
+
+  .header-title {
+    font-size: var(--bb-fs-860);
+  }
+
+  .header-subtext {
+    font-size: var(--bb-fs-325);
+  }
+
+  .section-text {
+    font-size: 21px;
+    line-height: 33px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Layout */
+  .wrapper-large {
+    max-width: var(--container-lg-width);
+    margin-inline: auto;
+  }
+
+  .wrapper {
+    max-width: var(--container-width);
+    margin-inline: auto;
+  }
+
+  .wrapper-sm {
+    max-width: var(--container-sm-width);
+    margin-inline: auto;
+  }
+
+  h2.prod-category-title {
+    font-size: var(--bb-fs-910);
+  }
+
+  /* .prod-cat-carousel.multi-carousel .multi-carousel-inner,
+  .cat-prod-carousel.multi-carousel .multi-carousel-inner {
+    width: calc(100% + 1rem);
+  } */
+
+  .prod-cat-carousel .multi-carousel-item,
+  .cat-prod-carousel .multi-carousel-item {
+    min-width: calc(33% - 1rem);
+  }
+
+  .prod-cat-carousel button.carousel-control,
+  .cat-prod-carousel button.carousel-control {
+    top: 50%;
+    bottom: unset;
+  }
+}

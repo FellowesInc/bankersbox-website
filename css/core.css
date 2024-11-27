@@ -1,0 +1,252 @@
+/* Custom Root Document Styles (overrides MDB Styles) */
+
+:root {
+  --bb-font-family: 'Roboto Slab', serif;
+  --bb-black: #000000;
+  --bb-white: #ffffff;
+  --bb-grey-700: #606060;
+  --bb-grey-600: #707070;
+  --bb-grey-300: #e8e8e8;
+  --bb-grey-100: #f2f2f2;
+  --bb-dark-blue: #20283a;
+  --bb-med-blue: #0039b7;
+  --bb-light-blue: #b3c3e8;
+  --bb-tan: #f1f0ec;
+  --bb-greyblue: #525564;
+
+  --container-lg-width: 1920px;
+  --container-width: 1550px;
+  --container-sm-width: 1150px;
+
+  /* --mdb-nav-link-color: --bb-grey-600;
+  --mdb-nav-link-hover-color: --bb-black; */
+  /* Custom Font Sizes based on 16px = 1rem */
+  /* 55px = 3.438rem */
+  --bb-fs-950: 3.438rem;
+  /* 53px = 3.3125rem */
+  --bb-fs-925: 3.3125rem;
+  /* 50px = 3.125rem */
+  --bb-fs-910: 3.125rem;
+  /* 48px = 3rem */
+  --bb-fs-908: 3rem;
+  /* 46px = 2.875rem */
+  --bb-fs-907: 2.875rem;
+  /* 44px = 2.75rem */
+  --bb-fs-905: 2.75rem;
+  /* 40px = 2.5rem */
+  --bb-fs-900: 2.5rem;
+  /* 38px = 2.375rem */
+  --bb-fs-880: 2.375rem;
+  /* 36px = 2.25rem */
+  --bb-fs-860: 2.25rem;
+  /* 35px = 2.1875rem */
+  --bb-fs-850: 2.1875rem;
+  /* 33px = 2.0625rem */
+  --bb-fs-825: 2.0625rem;
+  /* 32px = 2rem */
+  --bb-fs-800: 2rem;
+  /* 30px = 1.875rem */
+  --bb-fs-775: 1.875rem;
+  /* 28px = 1.75rem */
+  --bb-fs-750: 1.75rem;
+  /* 25.6px = 1.6rem */
+  --bb-fs-725: 1.6rem;
+  /* 24px = 1.5rem */
+  --bb-fs-710: 1.5rem;
+  /* 22px = 1.375rem */
+  --bb-fs-700: 1.375rem;
+  /* 21px = 1.313rem */
+  --bb-fs-650: 1.313rem;
+  /* 20px = 1.25rem */
+  --bb-fs-600: 1.25rem;
+  /* 19px = 1.1875rem */
+  --bb-fs-500: 1.1875rem;
+  /* 18px = 1.125rem */
+  --bb-fs-450: 1.125rem;
+  /* 17px = 1.063rem */
+  --bb-fs-400: 1.063rem;
+  /* 16px = 1rem */
+  --bb-fs-350: 1rem;
+  /* 14px = 0.875rem */
+  --bb-fs-325: 0.875rem;
+  /* 13px = 0.8125rem */
+  --bb-fs-300: 0.8125rem;
+  /* 12px = 0.75rem */
+  --bb-fs-250: 0.75rem;
+  /* 11px = 0.6875rem */
+  --bb-fs-200: 0.6875rem;
+  /* 10px = 0.625rem */
+  --bb-fs-150: 0.625rem;
+  /* 9px = 0.5625rem */
+  --bb-fs-100: 0.5625rem;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+/* Skip Link Styles */
+
+.skip-to-main-content-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  opacity: 0;
+}
+
+.skip-to-main-content-link:focus {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+/* Font Styles */
+
+body {
+  font-family: var(--bb-font-family);
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--bb-grey-700);
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  font-size: var(--bb-fs-700);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: var(--bb-fs-350);
+}
+
+@media (min-width: 992px) {
+  h1,
+  h2 {
+    font-size: var(--bb-fs-908);
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: var(--bb-fs-650);
+  }
+}
+
+.blue-centered-border {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.blue-centered-border::after {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 45px;
+  background-color: #0039b7;
+  bottom: -1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+/* Heights and Widths */
+
+.mw-475 {
+  max-width: 475px;
+  margin-inline: auto;
+}
+
+.mw-778 {
+  max-width: 778px;
+  margin-inline: auto;
+}
+
+/* Helper Classes */
+
+.zindex-10 {
+  z-index: 10;
+}
+
+/* Colors */
+
+.bb-tan-bg {
+  background-color: var(--bb-tan);
+}
+
+.bb-greyblue-bg {
+  background-color: var(--bb-greyblue);
+}
+
+.bb-grey-300-bg {
+  background-color: var(--bb-grey-300);
+}
+
+/* Layout */
+
+#primary-content {
+  overflow-x: hidden;
+}
+
+/* Images */
+.section-bg-img {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
