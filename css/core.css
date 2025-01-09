@@ -204,9 +204,18 @@ h3 {
 
 /* Heights and Widths */
 
+.mw-400 {
+  max-width: 400px;
+  margin-inline: auto;
+}
+
 .mw-475 {
   max-width: 475px;
   margin-inline: auto;
+}
+
+.mw-580-noAuto {
+  max-width: 580px;
 }
 
 .mw-778 {
@@ -218,6 +227,12 @@ h3 {
 
 .zindex-10 {
   z-index: 10;
+}
+
+@media (max-width: 991.9px) {
+  .mx-auto-mobile {
+    margin-inline: auto;
+  }
 }
 
 /* Colors */

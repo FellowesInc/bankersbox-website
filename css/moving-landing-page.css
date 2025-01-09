@@ -28,6 +28,8 @@
 .epo-img-2 {
   display: block;
   width: 100%;
+  max-height: 650px;
+  object-fit: contain;
 }
 
 .easy-org-text-wrapper {
@@ -109,6 +111,12 @@
   .construction-container {
     padding-inline: 1.75rem;
     padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .header-subtext {
+    margin-inline: auto;
   }
 }
 
@@ -216,7 +224,7 @@
 
 @media (min-width: 1400px) {
   .epo-container {
-    grid-template-columns: 600px 1fr 580px;
+    grid-template-columns: 1fr 400px 1fr;
   }
 
   .epo-text-col {
