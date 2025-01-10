@@ -107,6 +107,22 @@
   margin-top: 1rem;
 }
 
+.dual-col-desktop-wrapper .card-title {
+  font-size: var(--bb-fs-700);
+  line-height: 1.4;
+  font-weight: 400;
+  color: #606060;
+}
+
+.dual-col-desktop-wrapper .card-text {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #606060;
+  max-width: 450px;
+  margin-inline: auto;
+}
+
 @media (max-width: 767.9px) {
   .construction-container {
     padding-inline: 1.75rem;
@@ -200,19 +216,13 @@
   }
 
   .dual-col-desktop-wrapper .card-title {
-    font-size: 48px;
-    line-height: 52px;
-    font-weight: 400;
-    color: #606060;
+    font-size: var(--bb-fs-880);
+    line-height: 1.1;
   }
 
   .dual-col-desktop-wrapper .card-text {
-    font-size: 21px;
-    line-height: 33px;
-    font-weight: 400;
-    color: #606060;
-    max-width: 565px;
-    margin-inline: auto;
+    font-size: 17px;
+    line-height: 26px;
   }
 }
 
