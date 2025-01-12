@@ -11,6 +11,26 @@
     font-size: var(--bb-fs-325);
   }
 
+  .large-hero-banner img {
+    height: 700px;
+  }
+
+  .header-banner-text {
+    left: 3em;
+    bottom: 3em;
+    right: unset;
+    max-width: 550px;
+  }
+
+  .banner-text__header {
+    font-size: 60px;
+  }
+
+  .section_centered_title {
+    font-size: var(--bb-fs-910);
+    margin-bottom: 3.438rem;
+  }
+
   .section-title {
     font-size: var(--bb-fs-880);
   }
@@ -25,6 +45,11 @@
   /* Layout */
   .wrapper-large {
     max-width: var(--container-lg-width);
+    margin-inline: auto;
+  }
+
+  .wrapper-1500 {
+    max-width: var(--container-1500);
     margin-inline: auto;
   }
 

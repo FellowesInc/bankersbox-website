@@ -7,6 +7,37 @@
   font-size: var(--bb-fs-250);
 }
 
+.large-hero-banner img {
+  height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.header-banner-text {
+  position: absolute;
+  left: 2em;
+  right: 2em;
+  bottom: 2em;
+  color: #fff;
+}
+
+.banner-text__header {
+  font-size: 32px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.section_centered_title {
+  text-align: center;
+  font-size: var(--bb-fs-775);
+  color: #5f5f5f;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+}
+
 .section-text {
   font-size: 12px;
   line-height: 20px;
@@ -98,6 +129,12 @@ h2.prod-category-title {
   width: 5%;
   opacity: 1 !important;
   z-index: 20;
+}
+
+@media (max-width: 767.9px) {
+  .break-on-mobile {
+    display: block;
+  }
 }
 
 @media (max-width: 991.99px) {
