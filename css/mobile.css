@@ -418,4 +418,10 @@ h2.prod-category-title {
   .bodynavfixedtop {
     height: 60px;
   }
+
+  .navbar-brand svg {
+    display: block;
+    width: 100%;
+    max-width: 175px;
+  }
 }
