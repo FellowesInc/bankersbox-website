@@ -92,6 +92,11 @@
   .bb_nav_logo {
     max-width: 280px;
   }
+  .navbar-brand svg {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+  }
   #mobileMenuContainer,
   #mobileRightNav {
     display: none !important;
