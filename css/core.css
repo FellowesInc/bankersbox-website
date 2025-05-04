@@ -229,6 +229,10 @@ h3 {
   margin-inline: auto;
 }
 
+.mw-400-noauto {
+  max-width: 400px;
+}
+
 .mw-475 {
   max-width: 475px;
   margin-inline: auto;
@@ -288,6 +292,27 @@ h3 {
 
 .bb-ctablue-bg {
   background-color: var(--bb-ctablue);
+}
+
+/* Buttons */
+
+.bb-white-btn {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: .5rem 2rem;
+  transition: all .3s ease-in-out;
+  font-weight: 600;
+}
+
+.bb-white-btn:hover,
+.bb-white-btn:focus {
+  background-color: #fff;
+  color: var(--bb-dark-blue);
 }
 
 /* Layout */

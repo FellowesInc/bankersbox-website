@@ -3,6 +3,10 @@
     display: block;
   }
 
+  .section {
+    margin-bottom: 3px;
+  }
+
   .header-title {
     font-size: var(--bb-fs-860);
   }
@@ -38,6 +42,18 @@
   .section-text {
     font-size: 17px;
     line-height: 26px;
+  }
+
+  .eighthundred-tall-section {
+    height: 800px;
+  }
+
+  .floating-section-title {
+    font-size: 38px;
+  }
+  
+  .floating-section-text {
+    font-size: 18px;
   }
 }
 

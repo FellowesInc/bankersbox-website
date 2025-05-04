@@ -1,0 +1,229 @@
+#homepagebannerslider .carousel-item::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    opacity: 0.5;
+}
+
+#homepagebannerslider .carousel-indicators {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    gap: 2px;
+}
+
+#homepagebannerslider .carousel-indicators [data-mdb-target] {
+    width: 20%;
+    margin: 0;
+    margin-top: 0;
+    display: block;
+    height: 100%;
+    opacity: 1;
+    border: none;
+}
+
+#homepagebannerslider .carousel-indicators .active {
+    opacity: 0.4;
+}
+
+#homepagebannerslider .carousel-caption {
+    text-align: left;
+    left: 1.5em;
+    right: auto;
+    bottom: 2em;
+}
+
+.banner-cta {
+    font-size: var(--bb-fs-450);
+    font-weight: 400;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.banner-cta::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    height: 1px;
+    width: 2rem;
+    background-color: var(--bb-med-blue);
+}
+
+#homepagebannerslider .thumb-before::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #272725;
+    opacity: 0.49;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.thumb-before img {
+    height: 60px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.thumb-caption {
+    position: absolute;
+    bottom: 0.2rem;
+    text-indent: 0;
+    padding: 0rem 0.2rem;
+    left: 0;
+    font-size: 8px;
+    text-align: left;
+    color: var(--bb-white);
+    z-index: 20;
+    text-shadow: 3px 3px 5px #00000050;
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+#homepagebannerslider .carousel-caption {
+    width: 90%;
+    max-width: 510px;
+}
+
+.banner-title {
+    font-size: 2.188rem;
+    line-height: 2.563rem;
+}
+
+.banner-subtitle {
+    font-size: var(--bb-fs-725);
+    font-weight: 300;
+    line-height: 1.1;
+    margin-top: 1rem;
+}
+
+.banner-available {
+    font-size: var(--bb-fs-450);
+}
+
+#homepagebannerslider .carousel-item img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-height: 500px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 10%;
+    opacity: 0.75;
+}
+
+.original-bb-section {
+    padding-block: 3rem 5rem;
+    background-image: url(../img/homepage-imgs/background-img-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orig-bb-text {
+    color: #fff;
+    font-size: 19px;
+    line-height: 37px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+
+    .banner-title span {
+        font-size: 2.188rem;
+        line-height: 3.75rem;
+    }
+
+    .banner-title {
+        font-size: 3.438rem;
+        line-height: 3.75rem;
+    }
+
+    .banner-subtitle {
+        font-size: var(--bb-fs-850);
+    }
+
+    .banner-available {
+        font-size: var(--bb-fs-725);
+    }
+
+    #homepagebannerslider .carousel-indicators {
+        gap: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .thumb-caption {
+        font-size: var(--bb-fs-200);
+        padding: 0rem 1rem;
+        bottom: 1rem;
+    }
+
+    .thumb-before img {
+        height: 150px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    #homepagebannerslider .carousel-item img {
+        height: auto;
+        min-height: 600px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    #homepagebannerslider .carousel-caption {
+        left: 4em;
+        bottom: 2em;
+    }
+
+    .orig-bb-text {
+        max-width: 495px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .original-bb-section {
+        padding-block: 10rem;
+        background-image: url(../img/homepage-imgs/background-img-desktop.jpg);
+    }
+
+    .orig-bb-text {
+        font-size: 18px;
+        line-height: 43px;
+        text-align: start;
+        margin-left: auto;
+        margin-right: unset;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+    .orig-bb-logo {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .bb-truck-graphic {
+        transform: scale(1.2);
+        transform-origin: top right;
+    }
+}
