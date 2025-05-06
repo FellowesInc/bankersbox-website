@@ -840,6 +840,7 @@ fieldset:disabled .btn {
 
 .navbar .right-nav .nav-link #lang-text {
   display: none;
+  text-transform: uppercase;
   position: relative;
   cursor: pointer;
   font-weight: 700;
