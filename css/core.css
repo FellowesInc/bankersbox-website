@@ -603,6 +603,10 @@ h3 {
   color: var(--bb-black);
 }
 
+.navbar .right-nav li.company-dropdown:last-child .nav-link {
+  color: #fff;
+}
+
 .account-badge {
   font-weight: 400;
   font-size: 12px;
