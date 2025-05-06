@@ -588,25 +588,6 @@ h3 {
   display: none;
 }
 
-.navbar .right-nav li:last-child .nav-link {
-  font-size: var(--bb-fs-325);
-  color: var(--bb-grey-700);
-  padding: 1.5rem 0.5rem !important;
-  line-height: 1.6;
-}
-
-.navbar .right-nav li:last-child .nav-link::after {
-  display: inherit;
-}
-
-.navbar .right-nav li:last-child .nav-link:hover {
-  color: var(--bb-black);
-}
-
-.navbar .right-nav li.company-dropdown:last-child .nav-link {
-  color: #fff;
-}
-
 .account-badge {
   font-weight: 400;
   font-size: 12px;
