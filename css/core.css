@@ -910,7 +910,7 @@ fieldset:disabled .btn {
 }
 
 .country-selector-modal .btn-close {
-  background: transparent url(../img/xmark-solid.svg) 50%/1em auto no-repeat;
+  background: transparent url(https://cdn.fellowes.com/assets/repositories/themes/images/icons/modal/xmark-solid.svg) 50%/1em auto no-repeat;
   opacity: 1;
   position: absolute;
   top: 1em;
@@ -1022,23 +1022,23 @@ fieldset:disabled .btn {
 }
 
 .aqm-intro-img {
-  background-image: url(../img/nav-update_imgs/aqm-desktop-circle.png);
+  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/aqm-desktop-circle.png);
 }
 
 .as-intro-img {
-  background-image: url(../img/nav-update_imgs/as-desktop-circle.png);
+  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/as-desktop-circle.png);
 }
 
 .ci-intro-img {
-  background-image: url(../img/nav-update_imgs/ci-desktop-circle.png);
+  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/ci-desktop-circle.png);
 }
 
 .bp-intro-img {
-  background-image: url(../img/nav-update_imgs/bp-desktop-circle.png);
+  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/bp-desktop-circle.png);
 }
 
 .oc-intro-img {
-  background-image: url(../img/nav-update_imgs/oc-desktop-circle.png);
+  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/oc-desktop-circle.png);
 }
 
 @media (min-width: 992px) {
