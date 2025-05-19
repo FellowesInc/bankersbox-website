@@ -88,7 +88,7 @@
     text-shadow: 3px 3px 5px #00000050;
     font-weight: 500;
     line-height: 1.1;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 #homepagebannerslider .carousel-caption {
@@ -157,7 +157,7 @@
     }
 
     .banner-subtitle {
-        font-size: var(--bb-fs-850);
+        font-size: 30px;
     }
 
     .banner-available {

@@ -106,7 +106,7 @@
     height: 100px;
   }
   .bb_nav_logo {
-    max-width: 280px;
+    max-width: 250px;
   }
   .navbar-brand svg {
     display: block;
@@ -311,7 +311,7 @@
   .sub-dropdown-menu .sub-dropdown-item {
     padding: 0.2rem 0rem;
     font-weight: 600;
-    color: #444444;
+    color: #6d6d6d;
     transition: color 0.3s ease-in-out;
   }
 
@@ -321,10 +321,6 @@
 
   .sub-dropdown-menu li:first-child .sub-dropdown-item {
     padding: 0rem 0rem 0.2rem 0rem;
-  }
-
-  .navbar .dropdown:hover .dropdown-toggle {
-    /* color: var(--bb-black); */
   }
 
   .navbar .dropdown:hover .dropdown-toggle:after {
