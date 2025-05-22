@@ -26,6 +26,12 @@
     max-width: 550px;
   }
 
+  .blue-bg-banner-text {
+    left: unset;
+    bottom: unset;
+    max-width: unset;
+  }
+
   .banner-text__header {
     font-size: 60px;
   }
@@ -77,6 +83,25 @@
   .wrapper-sm {
     max-width: var(--container-sm-width);
     margin-inline: auto;
+  }
+
+  .blue-bg-banner-text {
+    position: absolute;
+    left: 3rem;
+    right: unset;
+    bottom: 3rem;
+    padding: 2rem;
+    text-align: start;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .blue-bg-banner-text .banner-text__header {
+    font-size: 60px;
+  }
+
+  .blue-bg-banner-text .subtitle {
+    font-size: 40px;
   }
 
   h2.prod-category-title {

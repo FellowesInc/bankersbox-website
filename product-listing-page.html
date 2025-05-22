@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Home - Bankers Box</title>
+    <title>Product Listing Page - Bankers Box</title>
     <!-- MDB icon -->
     <link rel="icon" href="./img/Favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="stylesheet" href="./css/desktop.css" />
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="./css/homepage.css" />
+    <link rel="stylesheet" href="./css/product-listing-page.css" />
   </head>
 
   <body style="position: relative">
@@ -208,7 +208,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <div class="dropdown-menu-innerwrapper">
                     <div class="main-nav_category-intro">
-                      <div class="nav-cat-intro-img ci-intro-img"></div>
+                      <div class="nav-cat-intro-img plp-intro-img"></div>
                       <div class="nav-cat-intro-text">Need copy for this</div>
                     </div>
                     <ul class="main-nav_dropdown-list ci-main-nav">
@@ -1080,274 +1080,136 @@
 
     <!-- Header End -->
 
-    <main id="primary-content" class="position-relative">
+    <main id="primary-content" class="position-relative" data-loading="false" data-hasFilters="false">
       <!-- Start your project here-->
 
-      <!-- Homepage Carousel Wrapper -->
-      <section id="homepagebannerslider" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-        <!-- Slides -->
-        <div class="carousel-inner">
-          <a href="#!">
-            <div class="carousel-item active">
-              <img
-                src="./img/homepageheroimg/slide-1.jpg"
-                class="d-block w-100"
-                alt="Man holding a Record Storage Box"
-              />
-              <div class="carousel-caption container">
-                <div class="banner-title">Records Storage</div>
-                <div class="banner-subtitle">Engineered for Strength and Designed for Convenience</div>
-                <div class="bb-btn bb-white-btn mt-4">Learn More</div>
-              </div>
-            </div>
-          </a>
-          <a href="#!">
-            <div class="carousel-item">
-              <img
-                src="./img/homepageheroimg/slide-2.jpg"
-                class="d-block w-100"
-                alt="Plastic Storage Box Sitting on a Table"
-              />
-              <div class="carousel-caption container">
-                <div class="banner-title">Plastic Storage</div>
-                <div class="banner-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div class="bb-btn bb-white-btn mt-4">Learn More</div>
-              </div>
-            </div>
-          </a>
-          <a href="#!">
-            <div class="carousel-item">
-              <img
-                src="./img/homepageheroimg/slide-3.jpg"
-                class="d-block w-100"
-                alt="Woman Packing a Box"
-              />
-              <div class="carousel-caption container">
-                <div class="banner-title">Specialty Products</div>
-                <div class="banner-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div class="bb-btn bb-white-btn mt-4">Learn More</div>
-              </div>
-            </div>
-          </a>
-          <a href="#!">
-            <div class="carousel-item">
-              <img
-                src="./img/homepageheroimg/slide-4.jpg"
-                class="d-block w-100"
-                alt="Woman unloading boxes in her kitchen"
-              />
-              <div class="carousel-caption container">
-                <div class="banner-title">Smoothmove Moving Boxes</div>
-                <div class="banner-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div class="bb-btn bb-white-btn mt-4">Learn More</div>
-              </div>
-            </div>
-          </a>
-          <a href="#!">
-            <div class="carousel-item">
-              <img
-                src="./img/homepageheroimg/slide-5.jpg"
-                class="d-block w-100"
-                alt="Two decorative boxes in the back of an old pickup truck"
-              />
-              <div class="carousel-caption container">
-                <div class="banner-title">Classroom Organization</div>
-                <div class="banner-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div class="bb-btn bb-white-btn mt-4">Learn More</div>
-              </div>
-            </div>
-          </a>
-
-          <!-- Controls -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-mdb-target="#homepagebannerslider"
-            data-mdb-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-mdb-target="#homepagebannerslider"
-            data-mdb-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-          <!-- Controls -->
-        </div>
-        <!-- Slides -->
-
-        <!-- Thumbnails -->
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-mdb-target="#homepagebannerslider"
-            data-mdb-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          >
-            <div class="position-relative thumb-before">
-              <img
-                class="d-block w-100"
-                src="img/homepageheroimg/thumb-1.jpg"
-                class="img-fluid"
-              />
-              <div class="thumb-caption">
-                <div class="thumb-title">Record<br>Storage</div>
-              </div>
-            </div>
-          </button>
-          <button
-            type="button"
-            data-mdb-target="#homepagebannerslider"
-            data-mdb-slide-to="1"
-            aria-label="Slide 2"
-          >
-            <div class="position-relative thumb-before">
-              <img
-                class="d-block w-100"
-                src="img/homepageheroimg/thumb-2.jpg"
-                class="img-fluid"
-              />
-              <div class="thumb-caption">
-                <div class="thumb-title">Plastic<br>Storage</div>
-              </div>
-            </div>
-          </button>
-          <button
-            type="button"
-            data-mdb-target="#homepagebannerslider"
-            data-mdb-slide-to="2"
-            aria-label="Slide 3"
-            class="position-relative"
-          >
-            <div class="position-relative thumb-before">
-              <img
-                class="d-block w-100"
-                src="img/homepageheroimg/slide-3.jpg"
-                class="img-fluid"
-              />
-              <div class="thumb-caption">
-                <div class="thumb-title">Specialty<br>Products</div>
-              </div>
-            </div>
-          </button>
-          <button
-            type="button"
-            data-mdb-target="#homepagebannerslider"
-            data-mdb-slide-to="3"
-            aria-label="Slide 4"
-            class="position-relative"
-          >
-            <div class="position-relative thumb-before">
-              <img
-                class="d-block w-100"
-                src="img/homepageheroimg/thumb-4.jpg"
-                class="img-fluid"
-              />
-              <div class="thumb-caption">
-                <div class="thumb-title">Smoothmove<br>Moving Boxes</div>
-              </div>
-            </div>
-          </button>
-          <button
-            type="button"
-            data-mdb-target="#homepagebannerslider"
-            data-mdb-slide-to="4"
-            aria-label="Slide 5"
-            class="position-relative"
-          >
-            <div class="position-relative thumb-before">
-              <img
-                class="d-block w-100"
-                src="img/homepageheroimg/thumb-5.jpg"
-                class="img-fluid"
-              />
-              <div class="thumb-caption">
-                <div class="thumb-title">Classroom<br>Organization</div>
-              </div>
-            </div>
-          </button>
-        </div>
-        <!-- Thumbnails -->
-      </section>
-
-      <!-- Original Bankers Box Section -->
-      <section class="section original-bb-section position-relative">
-        <div class="container wrapper-sm px-4">
-          <div class="row">
-            <div class="col-12">
-              <div class="bb-logo-wrapper">
-                <img src="./img/homepage-imgs/orig-bb-logo-desktop.svg" alt="The Original Bankers Box Logo" class="orig-bb-logo w-100 d-none d-lg-block">
-                <img src="./img/homepage-imgs/orig-bb-logo-mobile.svg" alt="The Original Bankers Box Logo" class="orig-bb-logo w-100 d-block d-lg-none mb-5">
-              </div>
-            </div>
-          </div>
-          <div class="row gx-lg-5 gy-5 gy-lg-0 align-items-center">
-            <div class="col-12 col-lg-6 order-lg-2">
-              <div class="orig-bb-text">
-                Since 1917, Bankers Box has set the standard in innovative storage solutions. Trusted for over a century, our commitment to quality and reliability remains timeless - our legacy of excellence built into every box.
-              </div>
-            </div>
-            <div class="col-12 col-lg-6 order-lg-1">
-              <img src="./img/homepage-imgs/Truck-Graphic.png" alt="a graphical drawing of an old-time bankers box truck" class="bb-truck-graphic d-block w-100">
-            </div>
-          </div>
+      <!-- Page Header -->
+      <section class="position-relative medium-hero-banner">
+        <img src="./img/product-listing-page/header-img-desktop.jpg" class="img-fluid w-100 d-none d-lg-block" />
+        <img src="./img/product-listing-page/header-img-mobile.jpg" class="img-fluid w-100 d-block d-lg-none" />
+        <div class="header-banner-text blue-bg-banner-text">
+          <div class="subtitle">String & Button</div>
+          <h1 class="banner-text__header">Medium Duty</h1>
+          <div class="header-text mw-400-noauto mx-auto mx-lg-0">The ideal choice for moderate use when you occasionally access records and require medium stacking options.</div>
         </div>
       </section>
 
-      <!-- Video Section -->
-      <section class="section">
-        <div class="video-wrapper position-relative">
-          <video id="homepage-video" class="d-block" width="100%" controls>
-            <source src="https://github.com/FellowesInc/bankersbox-website/raw/refs/heads/main/img/record-storage/FPO%20Fellowes%20Video.mp4" type="video/mp4" />
-          </video>
-          <div class="video-play-wrapper">
-            <img src="./img/homepage-imgs/video-poster.jpg" alt="" class="img-fluid w-100 d-block" />
-          </div>
-        </div>
-      </section>
+      <!-- Product Listing Section -->
+      <section class="plp-section d-flex container">
 
-      <!-- Calculate Moving Section -->
-      <section class="section eighthundred-tall-section position-relative py-4">
-        <img src="./img/homepage-imgs/section-img-calculate-desktop.jpg" alt="Woman unloading boxes in her kitchen" class="section-bg-img object-top w-100 d-none d-md-block">
-        <img src="./img/homepage-imgs/section-img-calculate-mobile.jpg" alt="Woman unloading boxes in her kitchen" class="section-bg-img object-top w-100 d-block d-md-none">
-        <div class="container floating-container wrapper-sm px-4">
-          <div class="mw-400-noauto text-white d-md-flex flex-md-column justify-content-md-center">
-            <h2 class="floating-section-title">Calculate the Moving Supplies You Need</h2>
-            <div class="floating-section-text">Are you planning a move but are unsure of the supplies you need? Use our calculator to find out what moving supplies are recommended for your move.</div>
-            <a href="#!" class="bb-btn bb-white-btn mt-4">Calculate Now</a>
-          </div>
+        <div class="filter-section">
+            <div class="filter-section__header d-flex justify-content-between align-items-center flex-wrap">
+              <div class="filter-section__title">Filter By Feature</div>
+              <div class="filter-section__wrapper">
+                <div class="filter-section__btn-wrapper">
+                  <button class="filter-section__BTN filter-submit-btn bb-tan-bg btn btn-rounded text-black shadow-0" type="submit">Apply Filters</button>
+                  <button class="filter-section__BTN filter-clear-btn bb-tan-bg btn btn-rounded text-black shadow-0" type="reset">Clear All</button>
+                </div>
+                <div class="filter-header__icons d-lg-none">
+                  <i class="filter-icon filter-open fa-solid fa-chevron-down"></i>
+                  <i class="filter-icon filter-close fa-solid fa-xmark"></i>
+                </div>
+              </div>
+            </div>
+            <div class="filter-section__filter-wrapper">
+              <div class="filter-section__block">
+                <div class="filter-header">
+                  <div>Placeholder Filter</div>
+                </div>
+                <div class="filters">
+                  <div class="form-check">
+                    <input name="monitor-count-filter" class="filter-form-check-input form-check-input rounded-0" type="checkbox" value="" id="option-1" />
+                    <label class="form-check-label" for="option-1">
+                      Option 1 (<span class="filter-count">15</span>)
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input name="monitor-count-filter" class="filter-form-check-input form-check-input rounded-0" type="checkbox" value="" id="option-2" />
+                    <label class="form-check-label" for="option-2">
+                      Option 2 (<span class="filter-count">24</span>)
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input name="monitor-count-filter" class="filter-form-check-input form-check-input rounded-0" type="checkbox" value="" id="option-3" />
+                    <label class="form-check-label" for="option-3">
+                      Option 3 (<span class="filter-count">6</span>)
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
-      </section>
 
-      <!-- Durable and Long Lasting Section -->
-      <section class="section eighthundred-tall-section position-relative py-4">
-        <img src="./img/homepage-imgs/section-img-durable-desktop.jpg" alt="Two decorative storage boxes sitting on a kitchen table" class="section-bg-img w-100 d-none d-md-block">
-        <img src="./img/homepage-imgs/section-img-durable-mobile.jpg" alt="Two decorative storage boxes sitting on a kitchen table" class="section-bg-img w-100 d-block d-md-none">
-        <div class="container floating-container wrapper-sm px-4">
-          <div class="ms-md-auto mw-400-noauto text-white d-md-flex flex-md-column justify-content-md-center">
-            <h2 class="floating-section-title">The Most Durable and Long Lasting Storage</h2>
-            <div class="floating-section-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</div>
-            <a href="#!" class="bb-btn bb-white-btn mt-4">Learn More</a>
+        <div class="product-listing-section">
+          <div class="results-section-counter filter-section__header">
+            <div class="results-section__title">RESULTS (<span id="results-count">6</span>)</div>
           </div>
-        </div>
-      </section>      
 
-      <!-- Choose Right Storage Solution Section -->
-      <section class="section eighthundred-tall-section position-relative py-4">
-        <img src="./img/homepage-imgs/section-img-rightsolution-desktop.jpg" alt="Man carrying a box through an office" class="section-bg-img w-100 d-none d-md-block">
-        <img src="./img/homepage-imgs/section-img-rightsolution-mobile.jpg" alt="Man carrying a box through an office" class="section-bg-img w-100 d-block d-md-none">
-        <div class="container floating-container wrapper-sm px-4">
-          <div class="mw-400-noauto text-white d-md-flex flex-md-column justify-content-md-center">
-            <h2 class="floating-section-title">Choose the Right Storage Solution</h2>
-            <div class="floating-section-text">Storage solutions for your business can range from a few storage boxes to an entire drawer system. Use out guide to determine to right storage solution for you.</div>
-            <a href="#!" class="bb-btn bb-white-btn mt-4">Explore Solutions</a>
+          <!-- Product Listing Container -->
+          <div class="results-section plp-inner-wrapper" data-bind="foreach: assets">
+
+            <div class="plp-item">
+              <div class="plp-item__image-wrapper">
+                <img src="" alt="" class="plp-item__image d-block w-100" data-bind="attr: { src: imageSrc, alt: title }">
+              </div>
+              <div class="plp-item__content-wrapper">
+                <div class="plp-item__item-number-wrapper">
+                  <div class="plp-item__item-number-text">Item No.</div>
+                  <div class="plp-item__item-number-text" data-bind="text: itemNumber"></div>
+                </div>
+                <div class="plp-item__productLine" data-bind="text: productLine"></div>
+                <h2 class="plp-item__title" data-bind="text: title"></h2>
+                <div class="plp-item__description" data-bind="text: description"></div>
+                <div class="plp-item__dimensions" data-bind="text: dimentions"></div>
+                <a href="" class="bb-btn bb-blue-btn" data-bind="attr: { href: productURL }">Explore Product</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Data Loading Container -->
+          <div class="loading-section plp-inner-wrapper placeholder-glow position-relative">
+            <div class="plp-item placeholder-wrapper">
+              <div class="plp-item__image-wrapper">
+                <div class="plp-item__image placeholder d-block w-100 aspect-ratio-1"></div>
+              </div>
+              <div class="plp-item__content-wrapper">
+                <div class="plp-item__item-number-wrapper">
+                  <div class="plp-item__item-number-text placeholder col-2 me-1"></div>
+                  <div class="plp-item__item-number-text placeholder col-2"></div>
+                </div>
+                <div class="plp-item__productLine placeholder col-6 mb-1"></div>
+                <h2 class="plp-item__title placeholder col-7"></h2>
+                <div class="plp-item__description placeholder aspect-ratio-3over1 col-12"></div>
+                <div class="plp-item__dimensions placeholder col-4"></div>
+                <div>
+                  <div class="placeholder col-6 aspect-ratio-3over1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="plp-item placeholder-wrapper">
+              <div class="plp-item__image-wrapper">
+                <div class="plp-item__image placeholder d-block w-100 aspect-ratio-1"></div>
+              </div>
+              <div class="plp-item__content-wrapper">
+                <div class="plp-item__item-number-wrapper">
+                  <div class="plp-item__item-number-text placeholder col-2 me-1"></div>
+                  <div class="plp-item__item-number-text placeholder col-2"></div>
+                </div>
+                <div class="plp-item__productLine placeholder col-6 mb-1"></div>
+                <h2 class="plp-item__title placeholder col-7"></h2>
+                <div class="plp-item__description placeholder aspect-ratio-3over1 col-12"></div>
+                <div class="plp-item__dimensions placeholder col-4"></div>
+                <div>
+                  <div class="placeholder col-6 aspect-ratio-3over1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="loading-spinner">
+              <div class="spinner-border text-dark" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -1356,6 +1218,14 @@
     </main>
 
     <!-- Footer Start -->
+
+    <!-- Blue CTA Section -->
+    <section class="blue-cta-section pt-4 pb-5 py-md-5 bb-ctablue-bg">
+      <div class="wrapper-1500 px-1rem-1550 text-center pb-md-3">
+        <h2 class="cta-text text-white mb-4">To Learn More About Bankers Box Products, Contact Us</h2>
+        <a href="#" class="lt-blue-center-underlined-link text-white">Let's Get to Work</a>
+      </div>
+    </section>    
 
     <footer id="main-footer" class="px-4" role="contentinfo">
       <section class="container-xl mb-4 my-lg-4">
@@ -1497,5 +1367,7 @@
     <script type="text/javascript" src="./js/core.js"></script>
     <script type="text/javascript" src="./js/mobile.js"></script>
     <script type="text/javascript" src="./js/desktop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+    <script type="text/javascript" src="./js/product-listing-page.js"></script>
   </body>
 </html>

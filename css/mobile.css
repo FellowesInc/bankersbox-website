@@ -30,6 +30,28 @@
   font-weight: 400;
 }
 
+.blue-bg-banner-text {
+    position: relative;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    background-color: var(--bb-dark-blue);
+    padding: 2rem;
+    text-align: center;
+}
+
+.blue-bg-banner-text .banner-text__header {
+    text-transform: unset;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.blue-bg-banner-text .subtitle {
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
 .section_centered_title {
   text-align: center;
   font-size: var(--bb-fs-775);
