@@ -12,7 +12,7 @@
   --bb-dark-blue: #20283a;
   --bb-med-blue: #0039b7;
   --bb-light-blue: #b3c3e8;
-  --bb-tan: #f1f0ec;
+  --bb-tan: #f1eee3;
   --bb-greyblue: #525564;
   --bb-ctablue: #4c556b;
 
@@ -126,6 +126,7 @@ body {
   font-style: normal;
   color: var(--bb-grey-700);
   line-height: 1.6;
+  text-wrap: pretty;
 }
 
 h1,
@@ -481,15 +482,22 @@ h3 {
 /* CTA's */
 
 .cta-text {
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--bb-dark-blue);
+}
+
+img.footer-cta-img {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin-inline: auto;
 }
 
 @media (min-width: 768px) {
   .cta-text {
-    font-size: 37px;
-    line-height: 52px;
+    font-size: 60px;
   }
 }
 
@@ -1050,24 +1058,24 @@ fieldset:disabled .btn {
   background-size: cover;
 }
 
-.aqm-intro-img {
-  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/aqm-desktop-circle.png);
+.records-storage-intro-img {
+  background-image: url(../img/nav-update_imgs/record-nav-circle.png);
 }
 
-.as-intro-img {
-  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/as-desktop-circle.png);
+.plastic-storage-intro-img {
+  background-image: url(../img/nav-update_imgs/plastic-nav-circle.png);
 }
 
-.ci-intro-img {
-  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/ci-desktop-circle.png);
+.specialty-intro-img {
+  background-image: url(../img/nav-update_imgs/specialty-nav-circle.png);
 }
 
-.bp-intro-img {
-  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/bp-desktop-circle.png);
+.moving-intro-img {
+  background-image: url(../img/nav-update_imgs/moving-nav-circle.png);
 }
 
 .oc-intro-img {
-  background-image: url(https://cdn.fellowes.com/assets/repositories/themes/images/menu/desktop/oc-desktop-circle.png);
+  background-image: url(../img/nav-update_imgs/company-nav-circle.png);
 }
 
 @media (min-width: 992px) {

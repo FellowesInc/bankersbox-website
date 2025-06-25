@@ -93,7 +93,7 @@
 
 #homepagebannerslider .carousel-caption {
     width: 90%;
-    max-width: 510px;
+    max-width: 555px;
 }
 
 .banner-title {
@@ -126,8 +126,8 @@
 }
 
 .original-bb-section {
-    padding-block: 3rem 5rem;
-    background-image: url(../img/homepage-imgs/background-img-mobile.jpg);
+    padding-block: 5rem;
+    background-image: url(../img/homepage-imgs/background-img-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,12 +136,13 @@
 .orig-bb-text {
     color: #fff;
     font-size: 19px;
-    line-height: 37px;
-    font-weight: 500;
+    line-height: 1.6;
+    font-weight: 300;
     text-align: center;
-    max-width: 300px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -194,24 +195,16 @@
         bottom: 2em;
     }
 
-    .orig-bb-text {
-        max-width: 495px;
-    }
-
 }
 
 @media (min-width: 992px) {
     .original-bb-section {
         padding-block: 10rem;
-        background-image: url(../img/homepage-imgs/background-img-desktop.jpg);
     }
 
     .orig-bb-text {
-        font-size: 18px;
-        line-height: 43px;
-        text-align: start;
-        margin-left: auto;
-        margin-right: unset;
+        font-size: 24px;
+        margin-top: 1.5rem;
     }
 }
 
