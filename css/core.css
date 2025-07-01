@@ -168,6 +168,36 @@ h3 {
   transform: translateX(-50%);
 }
 
+.link-underlined {
+    position: relative;
+}
+
+.link-underlined::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: var(--bb-med-blue);
+    width: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0;
+    border: none;
+    top: 30px;
+}
+
+.last-section-item .link-underlined::after {
+    top: auto;
+}
+
+.header-banner-text a.link-underlined::after,
+.text-img-columns .link-underlined::after,
+.link-left.link-underlined::after,
+.left-underline {
+    left: 0;
+    transform: none;
+}   
+
 .lt-blue-center-underlined-link {
   position: relative;
   font-size: 18px;
@@ -340,6 +370,10 @@ h3 {
 
 .bb-ctablue-bg {
   background-color: var(--bb-ctablue);
+}
+
+.bb-dark-blue-bg {
+  background-color: var(--bb-dark-blue);
 }
 
 /* Buttons */
